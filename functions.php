@@ -151,3 +151,9 @@ add_action( 'wp_enqueue_scripts', 'jadibooti_scripts' );
  * Implement the Custom Header feature
  */
 //require( get_template_directory() . '/inc/custom-header.php' );
+
+/**
+ * Implement Twitter Bootstrap Features
+ */
+require( get_template_directory() . '/inc/jadibooti-bootstrap.php' );
+
